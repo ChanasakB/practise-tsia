@@ -6,15 +6,12 @@ import Certi from "../components/Certi";
 
 export default function Home() {
   return (
-    <>
-     <div>
+     <>
       <Head />
       <Section />
       <LiveEvent />
       <UpEvent />
       <Certi />
-     </div>
-     
-    </>
+     </>
   );
 }

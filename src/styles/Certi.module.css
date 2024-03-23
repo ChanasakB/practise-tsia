@@ -1,0 +1,61 @@
+.container{
+    display: flex;
+    background-color: rgb(22, 22, 85);
+    width: 100%;
+    padding: 80px;
+    justify-content: space-between;
+
+}
+
+/* .img{
+    width: 100%; 
+    height: 400px;
+    display: block; 
+    max-width: 100%; 
+    max-height: 100%;
+    background-image: url('/certificate.png');
+    background-size: cover;
+ 
+} */
+.right{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.right h1{
+    color: white;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.buttonbtn{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.buttonbtn p{
+    color: white;
+
+}
+.buttonbtn button{
+    margin-top: 50px;
+    width: 900px;
+    height: 53px;
+    border-radius: 100px;
+    padding: 16px 40px;
+    background-color: #EEB4CD;
+    color: #335172;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.54px;
+    align-content: center;
+    border: none;
+    text-transform: uppercase; 
+    align-items: end;  
+}

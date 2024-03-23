@@ -1,0 +1,88 @@
+.containsection{
+    display: flex;
+    width: 100%;
+   
+}
+
+.bgimg{
+    width: 100%;
+    height: auto; 
+    background-image: url('/headimgcard.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.containcard{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 88);
+    width: 517px;
+    height: 692.25px;
+    padding : 40px 32px;
+    flex-direction: column;
+}
+
+.containcard h1 {
+    width: 453px;
+    height: 240px;
+    color: white;
+    font-size: 48px;
+    padding-bottom: 8px;
+}
+
+.time{
+    display: flex;
+    padding-bottom: 8px;
+    gap: 10px; 
+    color: white;
+}
+
+
+.time p {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.11px;
+}
+
+.time button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    font-weight: lighter;
+    color: green;
+    border-radius: 24px;
+    padding:4px 8px;
+    width: 54px;
+    height: 23px;
+}
+.containcardtop{
+    padding-bottom: 124.25px;
+}
+
+
+
+.containcardbtn p{
+    
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    padding-bottom: 24px;
+}
+
+.containcardbtn button{
+    width: 453px;
+    height: 53px;
+    border-radius: 100px;
+    padding: 16px 40px;
+    background-color: #EEB4CD;
+    color: #335172;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.54px;
+    align-content: center;
+    border: none;
+    text-transform: uppercase;  
+}

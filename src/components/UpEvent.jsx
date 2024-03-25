@@ -1,11 +1,10 @@
-import React from 'react'
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from '@/styles/up.module.css'
 
 export const UpEvent = () => {
   return (
-    <>
+    <div className='container'>
    <div className={styles.container}>
    <div className={styles.containertop}>
         <div className={styles.topbar}>
@@ -35,7 +34,7 @@ export const UpEvent = () => {
     </div>
    </div>
     
-    </>
+    </div>
   )
 }
 

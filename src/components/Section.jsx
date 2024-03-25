@@ -1,15 +1,14 @@
-import React from 'react'
 import Image from 'next/image';
 import styles from '@/styles/Scetion.module.css'
 
 export const Section = () => {
   return (
-    <>
-    <div className={styles.containsection}>
-      <div className={styles.bgimg}></div>
+    <div className='container'>
+    <div className={styles.containSection}>
+      <div className={styles.bgImg}/>
         {/* <Image src={"/headimgcard.png"} width={1600} height={692.25} alt="ImgHead" className={styles.containcardl}/> */}
-        <div className={styles.containcard}>
-           <div className={styles.containcardtop}>
+        <div className={styles.containCard}>
+           <div className={styles.containCardTop}>
            <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident aspernatur</h1>
             <div className={styles.time}>
               <Image src={"/Vector.svg"} width={24} height={24} alt='logo1'/>
@@ -28,13 +27,13 @@ export const Section = () => {
                 <p>Amnuay Silpa School Bangkok</p>
             </div>
            </div>
-            <div className={styles.containcardbtn}>
+            <div className={styles.containCardBtn}>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi repudiandae, pariatur, nulla iste assumenda incidunt qui error dolorem dignissimos, et optio exercitationem esse vero ad nostrum provident. Aliquid, possimus earum.</p>
             <button>see more</button>
             </div>
         </div>
     </div>
-    </>
+    </div>
   )
 }
 

@@ -1,21 +1,20 @@
-import React from 'react'
 import Link from 'next/link';
 import styles from '@/styles/Live.module.css'
 import Image from 'next/image';
 
 export const LiveEvent = () => {
   return (
-    <>
-    <div className={styles.containertop}>
-        <div className={styles.topbar}>
+   <div className="container">
+     <div className={styles.containerTop}>
+        <div className={styles.topBar}>
           <h1>Live events</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, facilis.</p>
         </div>
         <Link href="/" className={styles.view}>view all</Link>
     </div>
-    <div className={styles.containerbtn}>
+    <div className={styles.containerBtn}>
     <div className={styles.card}>
-      <div className={styles.bgtop}></div>
+      <div className={styles.bgTop}></div>
         <div>
           <div className={styles.btn}>
              <div className={styles.cattag}>cattagory</div>
@@ -28,15 +27,13 @@ export const LiveEvent = () => {
              </div>
              <div className={styles.content}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident rem autem!</div>
              <div>
-             <Link href="/" className={styles.btnclick}>see more</Link>
+             <Link href="/" className={styles.btnClick}>see more</Link>
              </div>
         </div>
       </div>
     </div>
     </div>
-    
-    
-    </>
+   </div>
   )
 }
 

@@ -1,28 +1,30 @@
-.containsection{
+.containSection{
     display: flex;
     width: 100%;
-   
+    max-width: 1440px;
+    margin: auto;   
 }
 
-.bgimg{
+.bgImg{
     width: 100%;
     height: auto; 
     background-image: url('/headimgcard.png');
     background-size: cover;
+    object-fit: contain;
     background-position: center;
 }
 
-.containcard{
+.containCard{
     display: flex;
     flex-direction: column;
     background-color: rgb(0, 0, 88);
     width: 517px;
-    height: 692.25px;
+    /* height: 692.25px; */
     padding : 40px 32px;
     flex-direction: column;
 }
 
-.containcard h1 {
+.containCard h1 {
     width: 453px;
     height: 240px;
     color: white;
@@ -57,13 +59,13 @@
     width: 54px;
     height: 23px;
 }
-.containcardtop{
+.containCardTop{
     padding-bottom: 124.25px;
 }
 
 
 
-.containcardbtn p{
+.containCardBtn p{
     
     color: white;
     font-size: 18px;
@@ -72,7 +74,7 @@
     padding-bottom: 24px;
 }
 
-.containcardbtn button{
+.containCardBtn button{
     width: 453px;
     height: 53px;
     border-radius: 100px;

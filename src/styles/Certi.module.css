@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    background-color: rgb(22, 22, 85);
+    width: 100%;
+    padding: 80px;
+    justify-content: space-between;
+
+}
+
+.right{
+    display: flex;
+    width:  624px;
+    height: 144px;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.right h1{
+    color: white;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.buttonBtn{
+    display: flex;
+    flex-direction: column;
+    margin-top: 104px;
+}
+
+.buttonBtn p{
+    color: white;
+
+}
+.buttonBtn button{
+    margin-top: 24px;
+    width: 624px;
+    height: 53px;
+    border-radius: 100px;
+    padding: 16px 40px;
+    background-color: #EEB4CD;
+    color: #335172;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.54px;
+    align-content: center;
+    border: none;
+    text-transform: uppercase; 
+    align-items: end;  
+    cursor: pointer;
+}

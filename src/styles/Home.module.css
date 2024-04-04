@@ -1,0 +1,18 @@
+.bgimg{
+  position: relative;
+  width: 100%;
+  height: 972px; 
+  background-size: cover;
+  background-position: center;
+}
+
+.title{
+    position: absolute;
+    top: 94%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    font-size: 90px;
+    text-transform: uppercase;  
+}
